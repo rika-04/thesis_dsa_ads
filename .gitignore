@@ -1,0 +1,17 @@
+# Python virtual environment
+.venv/
+
+# Environment variables
+.env
+
+# macOS system files
+.DS_Store
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# SQLite databases (optional)
+*.sqlite
+
+# Compiled Python files
+__pycache__/
