@@ -7,9 +7,11 @@ from dotenv import load_dotenv
 # load .env file to environment
 load_dotenv()
 
+# get values form the .env 
 CLIENT_KEY=os.getenv("TIKTOK_CLIENT_KEY")
 CLIENT_SECRET=os.getenv("TIKTOK_CLIENT_SECRET")
 
+# using clientkey and clientsecret that was given from website, receive token 
 def get_access_token():
     url="https://open.tiktokapis.com/v2/oauth/token/"
     headers={"Content-Type":"application/x-www-form-urlencoded"}
